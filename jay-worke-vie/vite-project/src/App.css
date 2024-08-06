@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1320px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.justify-center {
+  justify-content: center;
+}
+.img {
+  display: inline-block;
+}
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --maincolor: #000000;
+  --org: rgb(238, 163, 0);
+  --whait-dark: rgb(219, 212, 212);
+  --purpal: #866fdc;
+  --rubik: rubik;
+  --jakarta: Plus Jakarta Sans;
+  --primary-color: #f01543;
+  --primary-color-rgb: 240, 21, 67;
+  --secondary-color: #000929;
+  --secondary-color-rgb: 0, 9, 41;
+  --secondary-color-700: #122833;
+  --secondary-color-rgb-700: 18, 40, 51;
+  --secondary-color-600: #19213e;
+  --secondary-color-rgb-600: 25, 33, 62;
+  --grey-color-100: #dad6d6;
+  --white-color: #ffffff;
+  --white-color-rgb: 255, 255, 255;
+  --black-color: #000000;
+  --black-color-rgb: 0, 0, 0;
+  --border-color: #6c727f;
+  --font: "Plus Jakarta Sans";
+  --fs: 16px;
+  --fw: 400;
+  --lh: 1.5;
+  --gutter-width: 15px;
+}
+.w-1 {
+  width: 8.33%;
+}
+.w-2 {
+  width: 16.66%;
+}
+.w-3 {
+  width: 25%;
+}
+.w-4 {
+  width: 33.33%;
+}
+.w-5 {
+  width: 41.66%;
+}
+.w-6 {
+  width: 50%;
+}
+.w-7 {
+  width: 58.33%;
+}
+.w-8 {
+  width: 66.66%;
+}
+.w-9 {
+  width: 75%;
+}
+.w-10 {
+  width: 83.33%;
+}
+.w-11 {
+  width: 91.66%;
+}
+.w-12 {
+  width: 100%;
+}
+.w-1,
+.w-2,
+.w-3,
+.w-4,
+.w-5,
+.w-6,
+.w-7,
+.w-8,
+.w-9,
+.w-10,
+.w-11,
+.w-12 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.w-n {
+  display: none;
+}
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+h1{
+  text-align: center;
+}
